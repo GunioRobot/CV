@@ -6,7 +6,7 @@ var Sprite = function (img, animations) {
 Sprite.prototype.image = undefined;
 Sprite.prototype.setAnimation = function(animation) {
     this.currentFrame = 0
-    this.currentAnimation = animation; 
+    this.currentAnimation = animation;
 }
 Sprite.prototype.currentFrame = 0;
 Sprite.prototype.draw = function(ctx, x, y) {
